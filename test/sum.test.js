@@ -5,5 +5,8 @@ describe('sum', () => {
     it('suma dos números', () => {
         expect(sum(2, 3)).toBe(5);
     });
+    it('suma dos números pares', () => {
+        expect(sum(2, 2)).toBe(4);
+    });
 });
 
